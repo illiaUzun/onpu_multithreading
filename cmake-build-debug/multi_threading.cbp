@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="multi_threading"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/illia/Documents/ONPU/multi-threading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/illia/Documents/ONPU/multi-threading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/illia/Documents/ONPU/multi-threading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi_threading">
+				<Option output="/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/multi_threading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/illia/Documents/ONPU/multi-threading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 multi_threading"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi_threading/fast">
+				<Option output="/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/multi_threading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/illia/Documents/ONPU/multi-threading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 multi_threading/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task11/Task11.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task11/Task11.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task16/Task16.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task16/Task16.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task17/Task17.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task17/Task17.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task21/Task21.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task21/Task21.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task25/Task25.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task25/Task25.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task27/Task27.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task27/Task27.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task29/Task29.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task29/Task29.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task3/Task3.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task3/Task3.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task30/Task30.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task30/Task30.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task6/Task6.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task6/Task6.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task8/Task8.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/Task8/Task8.h">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/main.cpp">
+			<Option target="multi_threading"/>
+		</Unit>
+		<Unit filename="/home/illia/Documents/ONPU/multi-threading/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
