@@ -7,7 +7,8 @@
 
 
 class Task21 {
-
+public:
+    void execute(int argc, char **argv);
 };
 
 

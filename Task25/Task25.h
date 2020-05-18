@@ -7,7 +7,12 @@
 
 
 class Task25 {
+public:
+    void execute(int argc, char **argv, int size_a, int size_b);
 
+    void execute(int &argc, char &argv);
+
+    void execute(int argc, char **argv);
 };
 
 
