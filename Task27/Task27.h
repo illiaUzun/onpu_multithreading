@@ -7,7 +7,8 @@
 
 
 class Task27 {
-
+public:
+    void execute(int argc, char **argv, int child_processes);
 };
 
 

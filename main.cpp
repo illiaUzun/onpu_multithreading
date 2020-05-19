@@ -7,6 +7,7 @@
 #include "Task17/Task17.h"
 #include "Task21/Task21.h"
 #include "Task25/Task25.h"
+#include "Task27/Task27.h"
 
 using namespace std;
 
@@ -48,7 +49,25 @@ int main(int argc, char *argv[]) {
 //    Task21 *task21 = new Task21();
 //    task21->execute(argc, argv);
 //
-    cout << "\n\n\nTASK_25";
-    Task25 *task25 = new Task25();
-    task25->execute(argc, argv);
+//    cout << "\n\n\nTASK_25";
+//    Task25 *task25 = new Task25();
+//    int a[2][2] = {{1, 3},
+//                  {4, 8}};
+//    int b[2][2] = {{5, 4},
+//                  {3, 0}};
+//    task25->execute(argc, argv, a, b);
+//    cout << "\n\n\nTASK_27";
+//    Task27 *task27 = new Task27();
+//
+//    task27->execute(argc, argv, 3);
+
+    cout << "\n\n\nTASK_8";
+    Task8 *task8 = new Task8();
+    int threads[] = {1,2,4,5,6,8,10,12};
+    long accuracy[] = {100, 10000000, 400000000};
+    for (int i = 0; i < 8; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            task8->execute(threads[i], accuracy[j]);
+        }
+    }
 }

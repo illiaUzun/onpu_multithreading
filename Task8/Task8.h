@@ -8,7 +8,7 @@
 
 class Task8 {
 public:
-    void execute(int thread_amount, int N);
+    void execute(int thread_amount, long N);
 };
 
 

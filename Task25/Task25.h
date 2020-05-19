@@ -5,14 +5,12 @@
 #ifndef MULTI_THREADING_TASK25_H
 #define MULTI_THREADING_TASK25_H
 
+#define N 2
 
 class Task25 {
 public:
-    void execute(int argc, char **argv, int size_a, int size_b);
-
-    void execute(int &argc, char &argv);
-
-    void execute(int argc, char **argv);
+    void execute(int argc, char *argv[], int a[N][N], int b[N][N]);
+    void print_results(char *prompt, int a[N][N]);
 };
 
 

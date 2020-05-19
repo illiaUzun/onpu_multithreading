@@ -7,7 +7,7 @@
 #include "Task17.h"
 
 void Task17::execute(int argc, char *argv[], int send_num) {
-    printf("\nOutput: \n");
+    printf("\n\nInput: send_num = %d \nOutput: \n", send_num);
 
     MPI_Init(&argc, &argv);
 
