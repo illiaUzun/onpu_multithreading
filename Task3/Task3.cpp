@@ -13,6 +13,7 @@ void Task3::execute(int k) {
     omp_set_num_threads(k);
     #pragma omp parallel
     {
-        printf("I am %d thread from %d!\n", omp_get_thread_num(), omp_get_num_threads());
+        if(omp_get_thread_num() % 2 == 0)
+            printf("I am %d thread from %d!\n", omp_get_thread_num(), omp_get_num_threads());
     }
 }

@@ -7,7 +7,7 @@
 #include "Task8.h"
 
 void Task8::execute(int threads_amount, long N) {
-    printf("\n\nInput: N = %d \nOutput: \n", N);
+    printf("\n\nInput: N = %ld \nOutput: \n", N);
 
     omp_set_num_threads(threads_amount);
     double start = omp_get_wtime();

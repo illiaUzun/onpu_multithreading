@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/illia/Documents/ONPU/multi-threading/Task8/Task8.cpp
+/home/illia/Documents/ONPU/multi-threading/Task3/Task3.cpp
 iostream
 -
 omp.h
-/home/illia/Documents/ONPU/multi-threading/Task8/omp.h
-Task8.h
-/home/illia/Documents/ONPU/multi-threading/Task8/Task8.h
+/home/illia/Documents/ONPU/multi-threading/Task3/omp.h
+Task3.h
+/home/illia/Documents/ONPU/multi-threading/Task3/Task3.h
 
-/home/illia/Documents/ONPU/multi-threading/Task8/Task8.h
+/home/illia/Documents/ONPU/multi-threading/Task3/Task3.h
 

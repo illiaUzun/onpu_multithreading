@@ -7,7 +7,8 @@
 
 
 class Task29 {
-
+public:
+    void execute(int thread_amount, long N);
 };
 
 

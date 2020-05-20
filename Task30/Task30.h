@@ -7,7 +7,8 @@
 
 
 class Task30 {
-
+public:
+    void execute(int argc, char **argv, int number_of_threads);
 };
 
 
