@@ -1,3 +1,0 @@
-/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/illia/Documents/ONPU/multi-threading/cmake-build-debug/CMakeFiles/multi_threading.dir
